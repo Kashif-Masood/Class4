@@ -1,0 +1,15 @@
+
+void main(){
+  List<int> v_list_num = [0,1,2,3,4,5,6,7,8,21,25,50,99,100];
+  List v_list_empty = [];
+  int i;
+  int n = 5;
+
+  print(v_list_num.length);
+  for(i=0; i<n; i++)
+  {
+    v_list_empty.add(v_list_num[i]);
+  }
+  print(v_list_num);
+  print(v_list_empty);
+}
